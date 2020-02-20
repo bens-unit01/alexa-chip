@@ -1,0 +1,3 @@
+#!/bin/bash
+javac -verbose -cp /usr/share/java/RXTXcomm.jar:. TwoWaySerialComm.java
+

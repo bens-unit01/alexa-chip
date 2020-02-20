@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="lib-source/commons-codec-1.9-sources.jar"/>
+	<classpathentry kind="lib" path="lib-source/vlcj-2.4.1-sources.jar"/>
+	<classpathentry kind="lib" path="ref-lib/alpn-boot-8.1.9.v20160720.jar"/>
+	<classpathentry kind="lib" path="ref-lib/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="ref-lib/commons-fileupload-1.3.1.jar"/>
+	<classpathentry kind="lib" path="ref-lib/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="ref-lib/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="ref-lib/http2-client-9.3.7.v20160115.jar"/>
+	<classpathentry kind="lib" path="ref-lib/http2-common-9.3.7.v20160115.jar" sourcepath="lib-source/jetty-all-9.3.7.v20160115-uber.jar"/>
+	<classpathentry kind="lib" path="ref-lib/http2-hpack-9.3.7.v20160115.jar"/>
+	<classpathentry kind="lib" path="ref-lib/http2-http-client-transport-9.3.7.v20160115.jar"/>
+	<classpathentry kind="lib" path="ref-lib/jackson-core-asl-1.9.13.jar"/>
+	<classpathentry kind="lib" path="ref-lib/jackson-mapper-asl-1.9.13.jar"/>
+	<classpathentry kind="lib" path="ref-lib/javax.json-1.0.4.jar"/>
+	<classpathentry kind="lib" path="ref-lib/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="ref-lib/jetty-alpn-client-9.3.7.v20160115.jar"/>
+	<classpathentry kind="lib" path="ref-lib/jetty-client-9.3.7.v20160115.jar"/>
+	<classpathentry kind="lib" path="ref-lib/jetty-http-9.3.7.v20160115.jar"/>
+	<classpathentry kind="lib" path="ref-lib/jetty-io-9.3.7.v20160115.jar"/>
+	<classpathentry kind="lib" path="ref-lib/jetty-security-9.3.7.v20160115.jar"/>
+	<classpathentry kind="lib" path="ref-lib/jetty-server-9.3.7.v20160115.jar"/>
+	<classpathentry kind="lib" path="ref-lib/jetty-servlet-9.3.7.v20160115.jar"/>
+	<classpathentry kind="lib" path="ref-lib/jetty-util-9.3.7.v20160115.jar"/>
+	<classpathentry kind="lib" path="ref-lib/jlayer-1.0.1.jar"/>
+	<classpathentry kind="lib" path="ref-lib/jna-3.5.2.jar"/>
+	<classpathentry kind="lib" path="ref-lib/log4j-api-2.3.jar"/>
+	<classpathentry kind="lib" path="ref-lib/log4j-core-2.3.jar"/>
+	<classpathentry kind="lib" path="ref-lib/log4j-slf4j-impl-2.3.jar"/>
+	<classpathentry kind="lib" path="ref-lib/slf4j-api-1.7.10.jar"/>
+	<classpathentry kind="lib" path="lib/vlcj-2.4.1.jar" sourcepath="lib-source/vlcj-2.4.1-sources.jar"/>
+	<classpathentry kind="lib" path="lib/aws-iot-device-sdk-java-1.1.0.jar" sourcepath="lib-source/aws-iot-device-sdk-java-1.1.0-sources.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-databind-2.7.4.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-core-2.7.4.jar"/>
+	<classpathentry kind="lib" path="lib-source/aws-iot-device-sdk-java-1.1.0-sources.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.paho.client.mqttv3-1.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-annotations-2.7.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

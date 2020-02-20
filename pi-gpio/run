@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "mvn install && mavn exec:java"
+mvn install
+sudo mvn exec:java
+

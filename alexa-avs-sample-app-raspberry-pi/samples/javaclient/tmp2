@@ -1,0 +1,27 @@
+pom_pi.xml:18:    <log4j.version>2.3</log4j.version>
+pom_pi.xml:72:      <groupId>org.apache.logging.log4j</groupId>
+pom_pi.xml:73:      <artifactId>log4j-slf4j-impl</artifactId>
+pom_pi.xml:74:      <version>${log4j.version}</version>
+pom_pi.xml:77:      <groupId>org.apache.logging.log4j</groupId>
+pom_pi.xml:78:      <artifactId>log4j-core</artifactId>
+pom_pi.xml:79:      <version>${log4j.version}</version>
+pom_pi.xml:191:              <argument>-Dlog4j.configurationFile=file:///${basedir}/log4j2.xml</argument>
+tmp1:21:/home/pi/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.3/log4j-slf4j-impl-2.3.jar
+tmp1:22:/home/pi/.m2/repository/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3.jar
+tmp1:23:/home/pi/.m2/repository/org/apache/logging/log4j/log4j-core/2.3/log4j-core-2.3.jar
+pom_other.xml:19:    <log4j.version>2.3</log4j.version>
+pom_other.xml:73:      <groupId>org.apache.logging.log4j</groupId>
+pom_other.xml:74:      <artifactId>log4j-slf4j-impl</artifactId>
+pom_other.xml:75:      <version>${log4j.version}</version>
+pom_other.xml:78:      <groupId>org.apache.logging.log4j</groupId>
+pom_other.xml:79:      <artifactId>log4j-core</artifactId>
+pom_other.xml:80:      <version>${log4j.version}</version>
+pom_other.xml:186:              <argument>-Dlog4j.configurationFile=file:///${basedir}/log4j2.xml</argument>
+pom.xml:18:    <log4j.version>2.3</log4j.version>
+pom.xml:72:      <groupId>org.apache.logging.log4j</groupId>
+pom.xml:73:      <artifactId>log4j-slf4j-impl</artifactId>
+pom.xml:74:      <version>${log4j.version}</version>
+pom.xml:77:      <groupId>org.apache.logging.log4j</groupId>
+pom.xml:78:      <artifactId>log4j-core</artifactId>
+pom.xml:79:      <version>${log4j.version}</version>
+pom.xml:212:              <argument>-Dlog4j.configurationFile=file:///${basedir}/log4j2.xml</argument>

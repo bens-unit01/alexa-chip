@@ -1,0 +1,7 @@
+
+
+GPIO D2 (mul_sel=3, pull=1, drv_level=0, data=-1)
+GPIO D3 (mul_sel=3, pull=0, drv_level=0, data=-1)
+
+
+

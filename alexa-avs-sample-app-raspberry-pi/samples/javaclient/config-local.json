@@ -1,0 +1,20 @@
+{
+    "productId":"wow_robot_01",
+    "dsn":"1xxxxxxxxxx",
+    "provisioningMethod":"companionService",
+    "wakeWordAgentEnabled":true,
+    "avsHost":"https://avs-alexa-na.amazon.com",
+    "companionApp":{
+        "localPort":8443,
+        "lwaUrl":"https://api.amazon.com",
+        "sslKeyStore":"/home/pi/alexa-tests/alexa-avs-sample-app-raspberry-pi/samples/javaclient/certs/server/jetty.pkcs12",
+        "sslKeyStorePassphrase":""
+    },
+    "companionService":{
+        "serviceUrl":"https://localhost:3000",
+        "sslClientKeyStore":"/home/pi/alexa-tests/alexa-avs-sample-app-raspberry-pi/samples/javaclient/certs/client/client.pkcs12",
+        "sslClientKeyStorePassphrase":"",
+        "sslCaCert":"/home/pi/alexa-tests/alexa-avs-sample-app-raspberry-pi/samples/javaclient/certs/ca/ca.crt",
+        "sessionId":"863b0fa8-b7e6-4acc-adad-b5ea79ad3bc1"
+    }
+}

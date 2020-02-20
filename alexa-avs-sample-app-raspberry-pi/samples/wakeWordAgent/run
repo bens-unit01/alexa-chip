@@ -1,0 +1,4 @@
+#/bin/sh
+cd src
+./wakeWordAgent -e kitt_ai > ../logs/application2.log
+

@@ -1,0 +1,42 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Alexa Voice Service Sample Java Client 20160207.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:exec (default-cli) @ sample-java-client ---
+/home/pi/alexa-tests/alexa-avs-sample-app-raspberry-pi/samples/javaclient/target/classes/
+/home/pi/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar
+/home/pi/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar
+/home/pi/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar
+/home/pi/.m2/repository/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar
+/home/pi/.m2/repository/uk/co/caprica/vlcj/2.4.1/vlcj-2.4.1.jar
+/home/pi/.m2/repository/net/java/dev/jna/platform/3.5.2/platform-3.5.2.jar
+/home/pi/.m2/repository/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar
+/home/pi/.m2/repository/javazoom/jlayer/1.0.1/jlayer-1.0.1.jar
+/home/pi/.m2/repository/org/mortbay/jetty/alpn/alpn-boot/8.1.7.v20160121/alpn-boot-8.1.7.v20160121.jar
+/home/pi/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar
+/home/pi/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar
+/home/pi/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar
+/home/pi/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.3/log4j-slf4j-impl-2.3.jar
+/home/pi/.m2/repository/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3.jar
+/home/pi/.m2/repository/org/apache/logging/log4j/log4j-core/2.3/log4j-core-2.3.jar
+/home/pi/.m2/repository/org/eclipse/jetty/jetty-alpn-client/9.3.7.v20160115/jetty-alpn-client-9.3.7.v20160115.jar
+/home/pi/.m2/repository/org/eclipse/jetty/jetty-http/9.3.7.v20160115/jetty-http-9.3.7.v20160115.jar
+/home/pi/.m2/repository/org/eclipse/jetty/http2/http2-client/9.3.7.v20160115/http2-client-9.3.7.v20160115.jar
+/home/pi/.m2/repository/org/eclipse/jetty/http2/http2-http-client-transport/9.3.7.v20160115/http2-http-client-transport-9.3.7.v20160115.jar
+/home/pi/.m2/repository/org/eclipse/jetty/http2/http2-hpack/9.3.7.v20160115/http2-hpack-9.3.7.v20160115.jar
+/home/pi/.m2/repository/org/eclipse/jetty/http2/http2-common/9.3.7.v20160115/http2-common-9.3.7.v20160115.jar
+/home/pi/.m2/repository/org/eclipse/jetty/jetty-server/9.3.7.v20160115/jetty-server-9.3.7.v20160115.jar
+/home/pi/.m2/repository/org/eclipse/jetty/jetty-security/9.3.7.v20160115/jetty-security-9.3.7.v20160115.jar
+/home/pi/.m2/repository/org/eclipse/jetty/jetty-servlet/9.3.7.v20160115/jetty-servlet-9.3.7.v20160115.jar
+/home/pi/.m2/repository/org/eclipse/jetty/jetty-util/9.3.7.v20160115/jetty-util-9.3.7.v20160115.jar
+/home/pi/.m2/repository/org/eclipse/jetty/jetty-io/9.3.7.v20160115/jetty-io-9.3.7.v20160115.jar
+/home/pi/.m2/repository/org/eclipse/jetty/jetty-client/9.3.7.v20160115/jetty-client-9.3.7.v20160115.jar
+/home/pi/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar
+/home/pi/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar
+/home/pi/.m2/repository/com/amazonaws/aws-iot-device-sdk-java/1.1.0/aws-iot-device-sdk-java-1.1.0.jar
+/home/pi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.7.4/jackson-databind-2.7.4.jar
+/home/pi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.jar
+/home/pi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.7.4/jackson-core-2.7.4.jar
+/home/pi/.m2/repository/org/eclipse/paho/org.eclipse.paho.client.mqttv3/1.1.0/org.eclipse.paho.client.mqttv3-1.1.0.jar

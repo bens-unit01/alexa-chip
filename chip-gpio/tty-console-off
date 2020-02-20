@@ -1,0 +1,12 @@
+#!/bin/bash
+#!/bin/bash
+
+sudo systemctl stop serial-getty@ttyS0.service
+
+sudo systemctl disable serial-getty@ttyS0.service
+
+sudo chgrp dialout /dev/ttyS0
+
+sudo chmod g+rw /dev/ttyS0
+echo -e "\t console is off"
+

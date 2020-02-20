@@ -1,0 +1,74 @@
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:/CN=10.10.10.31/C=CA/ST=QC/L=MONTREAL/O=AVS_USER/OU=AVS_USER
+   i:/CN=10.10.10.31/C=CA/ST=QC/L=MONTREAL/O=AVS_USER/OU=AVS_USER
+-----BEGIN CERTIFICATE-----
+MIIERjCCAi4CAQIwDQYJKoZIhvcNAQELBQAwaTEUMBIGA1UEAwwLMTAuMTAuMTAu
+MzExCzAJBgNVBAYTAkNBMQswCQYDVQQIDAJRQzERMA8GA1UEBwwITU9OVFJFQUwx
+ETAPBgNVBAoMCEFWU19VU0VSMREwDwYDVQQLDAhBVlNfVVNFUjAeFw0xNjExMzAy
+MDMwNTVaFw0xNzExMzAyMDMwNTVaMGkxFDASBgNVBAMMCzEwLjEwLjEwLjMxMQsw
+CQYDVQQGEwJDQTELMAkGA1UECAwCUUMxETAPBgNVBAcMCE1PTlRSRUFMMREwDwYD
+VQQKDAhBVlNfVVNFUjERMA8GA1UECwwIQVZTX1VTRVIwggEiMA0GCSqGSIb3DQEB
+AQUAA4IBDwAwggEKAoIBAQCZ/nXOkDz2PPCzuF4tSEJVHNZJ00RZ4VvGOnshXPvo
+js+NODJtt6wAzCEMgimkkTRucr41t6LG+M6jCq1fpZX2t4VssJG/lytH3ZAT29J7
+HNf8R90VwyPSZwaUu3dOfFnSRv14MpGSR9Tc9JTF/gYCEkHOwMj54F/9HMyTCGwX
+Gxish2b64/t6mK+DzDuvXJexXHqVcEhZknrCYyflxZRTSrnYv2oua92i+yDwYZPk
+gCfbJdPTe2abRnHmaflw6y0b8Xu/v52r6XCO/zqjd4k+AtY75JrVaxnJ7aSXwMe5
+4ROPfGkDQ2tilMbq8TYE0EalYpz4xewdSfUAr8ievhOxAgMBAAEwDQYJKoZIhvcN
+AQELBQADggIBAGGqcNhXaYL7doRQMUbmjfeenRnOcVj6j96IEBSI/n7OBD1g+bGD
+AFa04bgOGf5elEsuTNnJTxHi2S1cuwW7c22OQrpEka65DV/+b2IDJOWlYw5i5b1s
+P8hdbx6OXiixVTNWlxO8e1uneprCdjLTbc07frYqRVUvEgs3YyNXxNKqqiv9T9uN
+LY1SEgwJYhHLH2ZZgBa1P28jJTgN3Zmc4FvV0XhG3dtVo7IxPrg37zTXlvHM5tdJ
+cB7qRy0MmO3MxBSTE5q1UKC7zpFrmXWfwhJlkVk/1vPOWOFXIxcDgO352JLATik4
+t/HP4bb0wJLtdWjxrmfT4T2H1FxVKyXK8FMIFYjXMG+yvnNuRhGh37YsPie5/e8t
+kXVEErpFfoa4fKg+0ZYl9QBFO3c6CPeiQtJ1Tjz1/jF4QW5edbDRk3W7UhLB14+3
+8msfbUErzYMfajfBTZ+C2cDsP5hOiiJPKF09SZzLQ+iYR9pepeqF9xhR0cuQdm5Y
+irk+VpMywinvdFqXnqo1gtOd3hheyrs0zcSUAytnWkEd83s9l/S4K0YvupryuOQS
+37IrSK5kaNZ+efZQHNcCL0SJRV/J++nIYchfhM8Da2ejK9vd3GjoIoTdjA8JRmhH
+Es3mf37c+JcfYLUcdmVRnRHRdZ0oQiFhKX682Ap111wixPCnD9+tBTkw
+-----END CERTIFICATE-----
+---
+Server certificate
+subject=/CN=10.10.10.31/C=CA/ST=QC/L=MONTREAL/O=AVS_USER/OU=AVS_USER
+issuer=/CN=10.10.10.31/C=CA/ST=QC/L=MONTREAL/O=AVS_USER/OU=AVS_USER
+---
+Acceptable client certificate CA names
+/CN=10.10.10.31/C=CA/ST=QC/L=MONTREAL/O=AVS_USER/OU=AVS_USER
+---
+SSL handshake has read 1591 bytes and written 619 bytes
+---
+New, TLSv1/SSLv3, Cipher is AES256-GCM-SHA384
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : AES256-GCM-SHA384
+    Session-ID: B01B277CB92355B6AADA7A05CF32F09C0723EBA327CE8DB27F3E4A68333C5369
+    Session-ID-ctx: 
+    Master-Key: 9F52234C9641494116476DAEC1CE639239639C7C7BA7BFBEA28ED7EFFC75FF73BC0102D76EEF191E8DBDD56896CA0A64
+    Key-Arg   : None
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 300 (seconds)
+    TLS session ticket:
+    0000 - de 4c 4c d6 fe 19 dc 62-41 cb 74 3f 7d 9f 14 cf   .LL....bA.t?}...
+    0010 - 9e 7e ac d4 b5 05 aa 8d-24 2e 07 3b a4 16 7a f1   .~......$..;..z.
+    0020 - 78 b1 7f d5 9f e4 0a ff-13 e1 b2 91 59 19 c1 c6   x...........Y...
+    0030 - df 82 54 bc 14 0d 0b a7-52 e5 6d f6 1e 1f c9 e5   ..T.....R.m.....
+    0040 - 45 d1 87 ec 7b 09 d4 39-27 76 4b d4 23 ce 67 29   E...{..9'vK.#.g)
+    0050 - 60 cd bf 54 da b0 2a 0c-e6 ca 79 05 3b e1 7a ab   `..T..*...y.;.z.
+    0060 - 9c 32 c2 93 a1 44 a7 90-2a 35 1d e5 ad ea c7 58   .2...D..*5.....X
+    0070 - 32 68 4a 17 71 c4 7b 49-4b 55 97 4d 6b d0 98 4d   2hJ.q.{IKU.Mk..M
+    0080 - 83 74 e6 94 7a 02 20 4b-7e bc c4 08 dc 31 10 00   .t..z. K~....1..
+    0090 - 4f ed 63 a8 2a 37 33 05-cf c5 7e ba 13 ce 86 5b   O.c.*73...~....[
+    00a0 - a7 64 2a a6 01 d7 8a ce-9f cd 2b 38 67 ba 61 e8   .d*.......+8g.a.
+    00b0 - 61 68 4b c0 31 5c 36 7e-bc c1 da fd 43 1f 21 bf   ahK.1\6~....C.!.
+
+    Start Time: 1480538049
+    Timeout   : 300 (sec)
+    Verify return code: 18 (self signed certificate)
+---

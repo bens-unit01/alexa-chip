@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=librxtxSerial.so -DgroupId=org.rxtx -DartifactId=rxtx -Dversion=2.2pre1 -Dpackaging=so -Dclassifier=bin

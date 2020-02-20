@@ -1,0 +1,1628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.11" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.amazon.alexa.avs.AVSApp" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/AVSApp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="246" width="249" x="283" y="-1388"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="2" language="java" name="com.amazon.alexa.avs.AVSApp.ButtonState" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/AVSApp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="53" width="119" x="105" y="-1071"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="3" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.Alerts.Events.DeleteAlertSucceeded" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4845" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.Speaker.Directives.SetMute" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1270" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.SpeechRecognizer" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="467" y="-984"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.SpeechRecognizer.Events" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="107" y="-854"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.Alerts.Events.AlertEnteredForeground" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5041" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.SpeechSynthesizer.Events.SpeechFinished" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6491" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.Speaker" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1425" y="-984"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.AudioPlayer.Directives.ClearQueue" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1711" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.SpeechRecognizer.Directives.ExpectSpeech" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="315" y="-703"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" 
+    name="com.amazon.alexa.avs.AVSAPIConstants.AudioPlayer.Events.ProgressReportIntervalElapsed" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2200" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.Speaker.Directives.SetVolume" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1417" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" 
+    name="com.amazon.alexa.avs.AVSAPIConstants.PlaybackController.Events.PauseCommandIssued" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7671" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.AudioPlayer" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3182" y="-984"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.System.Exception" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6969" y="-845"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.Speaker.Directives.AdjustVolume" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1564" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.AudioPlayer.Directives.Play" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1858" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.SpeechRecognizer.Events.Recognize" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-45" y="-702"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" 
+    name="com.amazon.alexa.avs.AVSAPIConstants.SpeechRecognizer.Events.ExpectSpeechTimedOut" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="134" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.System.Events.UserInactivityReport" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6953" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.SpeechSynthesizer.Directives.Speak" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6340" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.AudioPlayer.Events.PlaybackStopped" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2402" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.Alerts.Events.AlertStopped" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5214" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.Alerts.Events.AlertEnteredBackground" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5390" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.Speaker.Events" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1084" y="-854"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.AudioPlayer.Events.PlaybackState" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2557" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.AudioPlayer.Directives" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2005" y="-854"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.System.Events.ExceptionEncountered" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7139" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.Alerts.Events.AlertStarted" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5565" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.PlaybackController.Events.PlayCommandIssued" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7861" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.System.Events.SynchronizeState" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7317" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.AudioPlayer.Events.PlaybackStarted" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2710" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.Speaker.Directives" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1417" y="-854"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" 
+    name="com.amazon.alexa.avs.AVSAPIConstants.SpeechRecognizer.Directives.RequestProcessingStarted" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="491" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.Alerts" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4684" y="-984"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.AudioPlayer.Events.PlaybackFailed" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2863" y="-684"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.System.Events" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7116" y="-854"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" 
+    name="com.amazon.alexa.avs.AVSAPIConstants.PlaybackController.Events.PreviousCommandIssued" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8058" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.Alerts.Events.SetAlertSucceeded" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5726" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.SpeechSynthesizer" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6354" y="-984"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.AudioPlayer.Events.PlaybackFinished" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3020" y="-700"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.Alerts.Events.AlertsState" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5886" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="44" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.Alerts.Directives" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4676" y="-854"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="45" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.AudioPlayer.Events.PlaybackResumed" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3188" y="-694"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="46" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.System.Directives.ResetUserInactivity" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7486" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="47" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.Speaker.Events.VolumeChanged" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="825" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="48" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.SpeechSynthesizer.Directives" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6340" y="-854"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="49" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.SpeechRecognizer.Directives" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="455" y="-854"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="50" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.SpeechSynthesizer.Events.SpeechStarted" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6642" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="51" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.Alerts.Events.DeleteAlertFailed" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6040" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="52" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.AudioPlayer.Events.PlaybackQueueCleared" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3380" y="-650"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="53" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.Speaker.Events.VolumeState" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="976" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="54" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.System" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6977" y="-984"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="55" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.AudioPlayer.Events.PlaybackStutterStarted" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3566" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="56" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.Alerts.Directives.DeleteAlert" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4529" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="57" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.PlaybackController" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7144" y="-984"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="58" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.AudioPlayer.Events.PlaybackNearlyFinished" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3764" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="59" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.AudioPlayer.Events.PlaybackPaused" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3943" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="60" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.Alerts.Directives.SetAlert" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4676" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="61" language="java" 
+    name="com.amazon.alexa.avs.AVSAPIConstants.AudioPlayer.Events.ProgressReportDelayElapsed" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4138" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="62" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.PlaybackController.Events.NextCommandIssued" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8256" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="63" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.Alerts.Events.SetAlertFailed" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6193" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="64" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.Speaker.Events.MuteChanged" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1123" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="65" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.AudioPlayer.Directives.Stop" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2005" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="66" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.SpeechRecognizer.Directives.StopCapture" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="673" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="67" language="java" name="com.amazon.alexa.avs.AVSAPIConstants" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4685" y="-1114"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="68" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.AudioPlayer.Events" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3174" y="-854"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="69" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.AudioPlayer.Events.PlaybackStutterFinished" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4355" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="70" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.PlaybackController.Events" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7842" y="-854"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="71" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.SpeechSynthesizer.Events.SpeechState" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6790" y="-706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="72" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.SpeechSynthesizer.Events" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6565" y="-854"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="73" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.Alerts.Events" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5448" y="-854"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="74" language="java" name="com.amazon.alexa.avs.AVSAPIConstants.System.Directives" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAPIConstants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7263" y="-854"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="75" language="java" name="com.amazon.alexa.avs.AVSAudioPlayer" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAudioPlayer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-343" y="-632"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="76" language="java" name="com.amazon.alexa.avs.AVSAudioPlayer.AlertState" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAudioPlayer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-821" y="164"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <interface id="77" language="java" name="com.amazon.alexa.avs.AVSAudioPlayer.AlexaSpeechListener" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAudioPlayer.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-621" y="146"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="78" language="java" name="com.amazon.alexa.avs.AVSAudioPlayer.ProgressReportDelayEventRunnable" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAudioPlayer.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-328" y="155"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="79" language="java" name="com.amazon.alexa.avs.AVSAudioPlayer.SpeechState" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAudioPlayer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-53" y="155"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="80" language="java" name="com.amazon.alexa.avs.AVSAudioPlayer.ProgressReportIntervalEventRunnable" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/AVSAudioPlayer.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="391" y="243"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="81" language="java" name="com.amazon.alexa.avs.AVSController.UserInactivityReport" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/AVSController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="53" width="139" x="-1000" y="-328"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="82" language="java" name="com.amazon.alexa.avs.AVSController" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/AVSController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1199" width="285" x="-1024" y="-1551"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="83" language="java" name="com.amazon.alexa.avs.AVSRequest" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/AVSRequest.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-804" y="459"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="84" language="java" name="com.amazon.alexa.avs.BlockableDirectiveThread" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/BlockableDirectiveThread.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="167" width="301" x="-1043" y="-193"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="85" language="java" name="com.amazon.alexa.avs.DirectiveDispatcher" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/DirectiveDispatcher.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-974" y="154"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="86" language="java" name="com.amazon.alexa.avs.DirectiveEnqueuer" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/DirectiveEnqueuer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-314" y="388"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="87" language="java" name="com.amazon.alexa.avs.ExpectSpeechListener" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/ExpectSpeechListener.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="52" y="-371"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="88" language="java" name="com.amazon.alexa.avs.ExpectStopCaptureListener" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/ExpectStopCaptureListener.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="53" y="-507"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="89" language="java" name="com.amazon.alexa.avs.MicrophoneLineFactory" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/MicrophoneLineFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="480" y="-588"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="90" language="java" name="com.amazon.alexa.avs.PlaybackAction" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/PlaybackAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="395" y="-217"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <interface id="91" language="java" name="com.amazon.alexa.avs.RecordingRMSListener" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/RecordingRMSListener.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="245" y="-508"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="92" language="java" name="com.amazon.alexa.avs.RecordingStateListener" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/RecordingStateListener.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="87" y="-231"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="93" language="java" name="com.amazon.alexa.avs.RequestListener" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/RequestListener.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-366" y="629"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="94" language="java" name="com.amazon.alexa.avs.SimpleStateChangeTransition" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/SimpleStateChangeTransition.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-275" y="-1474"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="95" language="java" name="com.amazon.alexa.avs.SpeakItem" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/SpeakItem.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-39" y="-1028"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="96" language="java" name="com.amazon.alexa.avs.SpeechProfile" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/SpeechProfile.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-605" y="-1346"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="97" language="java" name="com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/SpeechRequestAudioPlayerPauseController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="202" y="492"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="98" language="java" name="com.amazon.alexa.avs.State" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/State.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-2" y="-1251"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="99" language="java" name="com.amazon.alexa.avs.StateTransition" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/StateTransition.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="83" y="-1470"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="100" language="java" name="com.amazon.alexa.avs.UserActivityListener" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/UserActivityListener.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-586" y="-929"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="101" language="java" name="com.amazon.alexa.avs.message.Message.MessageDeserializer" 
+    project="alexa-test-01" file="/alexa-test-01/src/com/amazon/alexa/avs/message/Message.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="859" y="0"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="102" language="java" name="com.amazon.alexa.avs.message.Message" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/message/Message.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="860" y="-422"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="103" language="java" name="com.amazon.alexa.avs.http.MessageParser" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/http/MessageParser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="408" y="-374"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="104" language="java" name="com.amazon.alexa.avs.message.response.Directive" project="alexa-test-01" 
+    file="/alexa-test-01/src/com/amazon/alexa/avs/message/response/Directive.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="426" y="5"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="105">    
+    <end type="SOURCE" refId="83" navigable="false">      
+      <attribute id="106" name="requestListener">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="107" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="93" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="108">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="18"/>  
+  </nesting>  
+  <nesting id="109">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="12"/>  
+  </nesting>  
+  <nesting id="110">    
+    <end type="SOURCE" refId="57"/>    
+    <end type="TARGET" refId="70"/>  
+  </nesting>  
+  <realization id="111">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="87"/>  
+  </realization>  
+  <nesting id="112">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="72"/>  
+  </nesting>  
+  <nesting id="113">    
+    <end type="SOURCE" refId="67"/>    
+    <end type="TARGET" refId="41"/>  
+  </nesting>  
+  <nesting id="114">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="55"/>  
+  </nesting>  
+  <nesting id="115">    
+    <end type="SOURCE" refId="67"/>    
+    <end type="TARGET" refId="57"/>  
+  </nesting>  
+  <nesting id="116">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="27"/>  
+  </nesting>  
+  <nesting id="117">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="29"/>  
+  </nesting>  
+  <nesting id="118">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
+  </nesting>  
+  <nesting id="119">    
+    <end type="SOURCE" refId="70"/>    
+    <end type="TARGET" refId="39"/>  
+  </nesting>  
+  <nesting id="120">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="23"/>  
+  </nesting>  
+  <nesting id="121">    
+    <end type="SOURCE" refId="73"/>    
+    <end type="TARGET" refId="63"/>  
+  </nesting>  
+  <nesting id="122">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="69"/>  
+  </nesting>  
+  <association id="123">    
+    <end type="SOURCE" refId="86" navigable="false">      
+      <attribute id="124" name="dependentQueue"/>      
+      <multiplicity id="125" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="104" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="126">    
+    <end type="SOURCE" refId="82"/>    
+    <end type="TARGET" refId="77"/>  
+  </realization>  
+  <nesting id="127">    
+    <end type="SOURCE" refId="73"/>    
+    <end type="TARGET" refId="3"/>  
+  </nesting>  
+  <nesting id="128">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="4"/>  
+  </nesting>  
+  <nesting id="129">    
+    <end type="SOURCE" refId="73"/>    
+    <end type="TARGET" refId="25"/>  
+  </nesting>  
+  <nesting id="130">    
+    <end type="SOURCE" refId="73"/>    
+    <end type="TARGET" refId="43"/>  
+  </nesting>  
+  <association id="131">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="132" name="buttonState">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="133" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="134">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="19"/>  
+  </nesting>  
+  <association id="135">    
+    <end type="SOURCE" refId="82" navigable="false">      
+      <attribute id="136" name="independentDirectiveThread">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="137" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="84" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="138">    
+    <end type="SOURCE" refId="84" navigable="false">      
+      <attribute id="139" name="directiveQueue"/>      
+      <multiplicity id="140" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="104" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="141">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="64"/>  
+  </nesting>  
+  <nesting id="142">    
+    <end type="SOURCE" refId="75"/>    
+    <end type="TARGET" refId="77"/>  
+  </nesting>  
+  <association id="143">    
+    <end type="SOURCE" refId="82" navigable="false">      
+      <attribute id="144" name="PROFILE">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="145" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="96" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="146">    
+    <end type="SOURCE" refId="82"/>    
+    <end type="TARGET" refId="85"/>  
+  </realization>  
+  <association id="147">    
+    <end type="SOURCE" refId="75" navigable="false">      
+      <attribute id="148" name="speechState">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="149" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="79" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="150">    
+    <end type="SOURCE" refId="72"/>    
+    <end type="TARGET" refId="8"/>  
+  </nesting>  
+  <nesting id="151">    
+    <end type="SOURCE" refId="67"/>    
+    <end type="TARGET" refId="54"/>  
+  </nesting>  
+  <nesting id="152">    
+    <end type="SOURCE" refId="73"/>    
+    <end type="TARGET" refId="30"/>  
+  </nesting>  
+  <nesting id="153">    
+    <end type="SOURCE" refId="73"/>    
+    <end type="TARGET" refId="40"/>  
+  </nesting>  
+  <nesting id="154">    
+    <end type="SOURCE" refId="75"/>    
+    <end type="TARGET" refId="79"/>  
+  </nesting>  
+  <nesting id="155">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="53"/>  
+  </nesting>  
+  <nesting id="156">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="20"/>  
+  </nesting>  
+  <nesting id="157">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="56"/>  
+  </nesting>  
+  <generalization id="158">    
+    <end type="SOURCE" refId="104"/>    
+    <end type="TARGET" refId="102"/>  
+  </generalization>  
+  <association id="159">    
+    <end type="SOURCE" refId="86" navigable="false">      
+      <attribute id="160" name="incompleteDirectiveQueue"/>      
+      <multiplicity id="161" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="104" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="162">    
+    <end type="SOURCE" refId="54"/>    
+    <end type="TARGET" refId="38"/>  
+  </nesting>  
+  <realization id="163">    
+    <end type="SOURCE" refId="82"/>    
+    <end type="TARGET" refId="100"/>  
+  </realization>  
+  <nesting id="164">    
+    <end type="SOURCE" refId="48"/>    
+    <end type="TARGET" refId="22"/>  
+  </nesting>  
+  <nesting id="165">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="10"/>  
+  </nesting>  
+  <nesting id="166">    
+    <end type="SOURCE" refId="67"/>    
+    <end type="TARGET" refId="5"/>  
+  </nesting>  
+  <nesting id="167">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="60"/>  
+  </nesting>  
+  <nesting id="168">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="61"/>  
+  </nesting>  
+  <nesting id="169">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="68"/>  
+  </nesting>  
+  <generalization id="170">    
+    <end type="SOURCE" refId="94"/>    
+    <end type="TARGET" refId="99"/>  
+  </generalization>  
+  <association id="171">    
+    <end type="SOURCE" refId="97" navigable="false">      
+      <attribute id="172" name="audioPlayer">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="173" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="75" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="174">    
+    <end type="SOURCE" refId="84" navigable="false">      
+      <attribute id="175" name="directiveDispatcher">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="176" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="85" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="177">    
+    <end type="SOURCE" refId="82" navigable="false">      
+      <attribute id="178" name="speechRequestAudioPlayerPauseController">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="179" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="97" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="180">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="44"/>  
+  </nesting>  
+  <association id="181">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="182" name="controller">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="183" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="82" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="184">    
+    <end type="SOURCE" refId="86" navigable="false">      
+      <attribute id="185" name="independentQueue"/>      
+      <multiplicity id="186" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="104" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="187">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="65"/>  
+  </nesting>  
+  <nesting id="188">    
+    <end type="SOURCE" refId="54"/>    
+    <end type="TARGET" refId="74"/>  
+  </nesting>  
+  <nesting id="189">    
+    <end type="SOURCE" refId="73"/>    
+    <end type="TARGET" refId="7"/>  
+  </nesting>  
+  <nesting id="190">    
+    <end type="SOURCE" refId="70"/>    
+    <end type="TARGET" refId="14"/>  
+  </nesting>  
+  <nesting id="191">    
+    <end type="SOURCE" refId="75"/>    
+    <end type="TARGET" refId="78"/>  
+  </nesting>  
+  <association id="192">    
+    <end type="SOURCE" refId="82" navigable="false">      
+      <attribute id="193" name="dependentDirectiveThread">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="194" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="84" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="195">    
+    <end type="SOURCE" refId="82"/>    
+    <end type="TARGET" refId="92"/>  
+  </realization>  
+  <nesting id="196">    
+    <end type="SOURCE" refId="73"/>    
+    <end type="TARGET" refId="51"/>  
+  </nesting>  
+  <nesting id="197">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="33"/>  
+  </nesting>  
+  <nesting id="198">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="45"/>  
+  </nesting>  
+  <nesting id="199">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="26"/>  
+  </nesting>  
+  <nesting id="200">    
+    <end type="SOURCE" refId="73"/>    
+    <end type="TARGET" refId="24"/>  
+  </nesting>  
+  <nesting id="201">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="48"/>  
+  </nesting>  
+  <association id="202">    
+    <end type="SOURCE" refId="82" navigable="false">      
+      <attribute id="203" name="player">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="204" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="75" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="205">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="47"/>  
+  </nesting>  
+  <realization id="206">    
+    <end type="SOURCE" refId="97"/>    
+    <end type="TARGET" refId="77"/>  
+  </realization>  
+  <nesting id="207">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="21"/>  
+  </nesting>  
+  <association id="208">    
+    <end type="SOURCE" refId="82" navigable="false">      
+      <attribute id="209" name="dependentQueue"/>      
+      <multiplicity id="210" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="104" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="211">    
+    <end type="SOURCE" refId="67"/>    
+    <end type="TARGET" refId="15"/>  
+  </nesting>  
+  <nesting id="212">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="17"/>  
+  </nesting>  
+  <association id="213">    
+    <end type="SOURCE" refId="82" navigable="false">      
+      <attribute id="214" name="independentQueue"/>      
+      <multiplicity id="215" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="104" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="216">    
+    <end type="SOURCE" refId="75" navigable="false">      
+      <attribute id="217" name="listeners">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="218" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="77" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="219">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="37"/>  
+  </nesting>  
+  <association id="220">    
+    <end type="SOURCE" refId="82" navigable="false">      
+      <attribute id="221" name="stopCaptureHandler">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="222" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="88" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="223">    
+    <end type="SOURCE" refId="75" navigable="false">      
+      <attribute id="224" name="controller">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="225" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="82" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="226">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="49"/>  
+  </nesting>  
+  <nesting id="227">    
+    <end type="SOURCE" refId="74"/>    
+    <end type="TARGET" refId="46"/>  
+  </nesting>  
+  <nesting id="228">    
+    <end type="SOURCE" refId="70"/>    
+    <end type="TARGET" refId="31"/>  
+  </nesting>  
+  <nesting id="229">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="34"/>  
+  </nesting>  
+  <dependency id="230">    
+    <end type="SOURCE" refId="99"/>    
+    <end type="TARGET" refId="98"/>  
+  </dependency>  
+  <association id="231">    
+    <end type="SOURCE" refId="75" navigable="false">      
+      <attribute id="232" name="speakQueue">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="233" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="95" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="234">    
+    <end type="SOURCE" refId="75"/>    
+    <end type="TARGET" refId="80"/>  
+  </nesting>  
+  <nesting id="235">    
+    <end type="SOURCE" refId="102"/>    
+    <end type="TARGET" refId="101"/>  
+  </nesting>  
+  <nesting id="236">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="58"/>  
+  </nesting>  
+  <nesting id="237">    
+    <end type="SOURCE" refId="49"/>    
+    <end type="TARGET" refId="11"/>  
+  </nesting>  
+  <nesting id="238">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="59"/>  
+  </nesting>  
+  <nesting id="239">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="52"/>  
+  </nesting>  
+  <association id="240">    
+    <end type="SOURCE" refId="75" navigable="false">      
+      <attribute id="241" name="alertState">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="242" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="76" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="243">    
+    <end type="SOURCE" refId="75"/>    
+    <end type="TARGET" refId="76"/>  
+  </nesting>  
+  <nesting id="244">    
+    <end type="SOURCE" refId="54"/>    
+    <end type="TARGET" refId="16"/>  
+  </nesting>  
+  <nesting id="245">    
+    <end type="SOURCE" refId="82"/>    
+    <end type="TARGET" refId="81"/>  
+  </nesting>  
+  <nesting id="246">    
+    <end type="SOURCE" refId="67"/>    
+    <end type="TARGET" refId="36"/>  
+  </nesting>  
+  <nesting id="247">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="32"/>  
+  </nesting>  
+  <nesting id="248">    
+    <end type="SOURCE" refId="72"/>    
+    <end type="TARGET" refId="50"/>  
+  </nesting>  
+  <nesting id="249">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="28"/>  
+  </nesting>  
+  <association id="250">    
+    <end type="SOURCE" refId="82" navigable="false">      
+      <attribute id="251" name="expectSpeechListeners">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="252" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="87" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="253">    
+    <end type="SOURCE" refId="49"/>    
+    <end type="TARGET" refId="35"/>  
+  </nesting>  
+  <nesting id="254">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="42"/>  
+  </nesting>  
+  <nesting id="255">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </nesting>  
+  <dependency id="256">    
+    <end type="SOURCE" refId="94"/>    
+    <end type="TARGET" refId="98"/>  
+  </dependency>  
+  <nesting id="257">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="13"/>  
+  </nesting>  
+  <nesting id="258">    
+    <end type="SOURCE" refId="72"/>    
+    <end type="TARGET" refId="71"/>  
+  </nesting>  
+  <realization id="259">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="88"/>  
+  </realization>  
+  <nesting id="260">    
+    <end type="SOURCE" refId="67"/>    
+    <end type="TARGET" refId="9"/>  
+  </nesting>  
+  <realization id="261">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="91"/>  
+  </realization>  
+  <nesting id="262">    
+    <end type="SOURCE" refId="70"/>    
+    <end type="TARGET" refId="62"/>  
+  </nesting>  
+  <realization id="263">    
+    <end type="SOURCE" refId="97"/>    
+    <end type="TARGET" refId="87"/>  
+  </realization>  
+  <nesting id="264">    
+    <end type="SOURCE" refId="49"/>    
+    <end type="TARGET" refId="66"/>  
+  </nesting>  
+  <nesting id="265">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="73"/>  
+  </nesting>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

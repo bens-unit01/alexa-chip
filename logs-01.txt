@@ -1,0 +1,16 @@
+
+
+
+
+  
+
+
+Bus 001 Device 006: ID 0bda:8176 Realtek Semiconductor Corp. RTL8188CUS 802.11n WLAN Adapter
+Bus 001 Device 007: ID 046d:c040 Logitech, Inc. Corded Tilt-Wheel Mouse
+Bus 001 Device 005: ID 1a40:0101 Terminus Technology Inc. 4-Port HUB
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+
+
+
+
+
